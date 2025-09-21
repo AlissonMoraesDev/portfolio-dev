@@ -1,0 +1,47 @@
+.work {
+  padding: 4.5rem 10.1875rem;
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: 1fr;
+
+  background-color: var(--bg-hero);
+
+  & .container-work {
+    width: 100%;
+    max-width: 65rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+.card-work {
+  background-color: var(--color-gray-dark);
+  padding: .75rem .75rem 1.0625rem .75rem;
+  border-radius: .75rem;
+  max-width: 20.625rem;
+
+  .card-work-info {
+    margin-top: 1.25rem;
+    text-align: left;
+    strong {
+      color: var(--color-gray-light);
+      margin-bottom: .5rem;
+    }
+    p {
+      color: var(--color-gray);
+    }
+  }
+}
+
+.card-work-header {
+  width: 19.125rem;
+  height: 9.75rem;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
