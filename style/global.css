@@ -1,0 +1,57 @@
+:root {
+  --font-family-primary: "Asap", sans-serif;
+  --font-family-secondary:  "Inconsolata", monospace;
+  --font-family-tertiary: "Maven Pro", sans-serif;
+
+  
+  --text: 400 1rem/1.5 var(--font-family-tertiary);
+  --text-sm: 400 0.875rem/140% var(--font-family-tertiary);
+  --text-md: 700 1rem/120% var(--font-family-primary);
+  --heading-1: 400 1.25rem/120% var(--font-family-secondary);
+  --heading-2: 700 1.5rem/120% var(--font-family-primary);
+
+  --color-gray-dark: #292C34;
+  --color-gray: #C0C4CE;
+  --color-gray-light: #E2E4E9;
+  --color-red: #E3646E;
+  --color-purple: #BB72E9;
+  --color-yellow: #EABD5F;
+  --color-green: #82BC4F;
+  --color-blue: #3996DB;
+
+  --bg-primary: #878EA1;
+  --bg-hero: #16181C;
+  --bg-secondary: #0D0E11;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+  font-smooth: auto;
+}
+
+a {
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+body {
+  font: var(--text);
+  position: relative;
+  background-color: var(--bg-hero);
+}
+
+.container {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+img {
+  object-fit: cover;
+}

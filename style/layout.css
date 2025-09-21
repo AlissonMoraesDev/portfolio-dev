@@ -1,0 +1,15 @@
+  section {
+    > div {
+      margin-bottom: 3.5rem;
+      text-align: center;
+      h3 {
+        color: var(--color-red);
+        font: var(--heading-1);
+      }
+  
+      span {
+        font: var(--heading-2);
+        color: var(--color-gray-light);
+      }
+    }
+  }
