@@ -1,0 +1,47 @@
+.contact {
+  background-image: url(../assets/images/background-hero.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+
+  padding: 7.5rem 30.1875rem 12.5rem;
+  .header-contact {
+    margin-inline: auto;
+    max-width: 26.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    h3 {
+      color: var(--color-purple);
+    }
+  }
+  .contact-list {
+    width: 25rem;
+    height: 20rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-inline: auto;
+    gap: 1rem;
+    
+    .contact-item {
+      background-color: var(--color-gray-dark);
+      border-radius: .75rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.25rem;
+      
+      p {
+        display: flex;
+        flex: 1;
+        margin-left: 0.75rem;
+      }
+
+    }
+  }
+  p {
+    color: var(--color-gray);
+  }
+}
