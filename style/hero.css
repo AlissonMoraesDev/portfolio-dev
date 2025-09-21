@@ -1,0 +1,78 @@
+main {
+  background-image: url(../assets/images/background-hero.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.hero {
+  width: 100%;
+  max-width: 1366px;
+  height: 750px;
+  margin-inline: auto;
+
+  padding-block: 7.5rem;
+  padding-inline: 10.1875rem;
+  & .hero-info {
+    width: 100%;
+    max-width: 680px;
+    margin-bottom: 5rem;
+
+
+    text-align: center;
+    color: var(--bg-primary);
+
+    & img {
+      margin-bottom: 3.5rem;
+      width: 7rem;
+    }
+
+    h1 {
+      color: var(--color-gray-light);
+    }
+
+    h2 {
+      font: var(--heading-1);
+      margin-bottom: .5rem;
+      & span {
+        color: var(--color-red);
+      }
+    }
+
+    p {
+      margin-top: 1.5rem;
+      font: var(--text-sm);
+    }
+
+  }
+
+  & .hero-skill {
+    display: flex;
+    align-items: center;
+
+    width: 754px;
+    gap: 16px;
+
+    .baged-skill {
+      display: flex;
+      align-items: center;
+
+      gap: 8px;
+      padding: .5rem 1rem;
+      background-color: var(--color-gray-dark);
+      border-radius: 3rem;
+      .icon-container {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+      p {
+        color: var(--color-gray);
+      }
+    }
+  }
+
+  & .cta-down {
+    margin-top: 5.875rem;
+    width: 2rem;
+    height: 2rem;
+  }
+}
