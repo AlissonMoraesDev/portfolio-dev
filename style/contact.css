@@ -1,7 +1,7 @@
 .contact {
-  background-image: url(../assets/images/background-hero.png);
+  background-image: url(../assets/images/background-contact.png);
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center;
 
   padding: 7.5rem 30.1875rem 12.5rem;
   .header-contact {
